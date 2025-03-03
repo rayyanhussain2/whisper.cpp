@@ -47,7 +47,7 @@ else()
         set(BUILD_SHARED_LIBS_DEFAULT ON)
     endif()
 endif()
-
+set(BUILD_SHARED_LIBS_DEFAULT OFF)
 option(BUILD_SHARED_LIBS "build shared libraries" ${BUILD_SHARED_LIBS_DEFAULT})
 
 #
